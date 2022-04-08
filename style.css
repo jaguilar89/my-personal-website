@@ -33,7 +33,30 @@ a:visited {
     color:whitesmoke;
 }
 
-div#welcome {
+#main {
     position: relative;
     top: 85px;
+    z-index: 0;
+}
+
+div.container h1 {
+    margin-top: 0px;
+    padding-top: 160px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#jumbotron {
+    height: 800px;
+    background-image: url('./images/bg.jpeg');
+    background-size: cover;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+
 }
