@@ -2,6 +2,8 @@ html, body {
     margin: 0;
     max-width: 100%;
     font-family: 'Source Code Pro', monospace;
+    background-color: whitesmoke;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -59,4 +61,30 @@ div.container h1 {
     margin: 0 auto;
     padding: 0 10px;
 
+}
+
+p {
+    font-size: 20px;
+}
+
+#about h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#about p {
+    width: 800px;
+    padding: 5px 0;
+    margin: auto;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-weight: 900;
+}
+#skyline {
+    width: 800px;
 }
