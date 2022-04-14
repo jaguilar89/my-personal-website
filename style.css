@@ -30,10 +30,11 @@ nav li:hover {
     background: whitesmoke;
     transition: 0.5s;
 }
-
+/*
 a:visited {
     color:whitesmoke;
 }
+*/
 
 #main {
     position: relative;
@@ -67,24 +68,36 @@ p {
     font-size: 20px;
 }
 
-#about h1 {
+section h1 {
     font-size: 40px;
     text-align: center;
+    text-decoration-line: underline;
 }
 
-#about p {
+section p {
     width: 800px;
     padding: 5px 0;
     margin: auto;
 }
 
-figure {
+figure {                
     text-align: center;
 }
-
+                        
 figcaption {
     font-weight: 900;
+    max-width: 1000px;
+    margin: auto;
 }
 #skyline {
     width: 800px;
+}
+
+ul {
+    text-align: center;
+    padding-left: 0;
+}
+/* astronomy.html*/
+#image-title {
+    text-align: center;
 }

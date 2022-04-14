@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Astronomy Picture of the Day</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;350&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <style>
+            a {color: black;}
+        </style>
+    </head>
+<body>
+    <section id="heading">
+        <h1>Astronomy Picture of the Day</h1>
+        <p>
+            This page utilizes NASA's APOD(<i>Astronomy Picture of the Day</i>) <a href="https://github.com/nasa/apod-api">API</a> which I am using to display
+            each day's <a href="https://apod.nasa.gov/apod/astropix.html">picture of the day</a>, with a description, on my own page.
+        </p>
+    </section> 
+        <figure>
+            <img id="apod" src=""> <!--Image is inserted here from script.js-->
+        </figure>
+        <p id="image-title"><!--Title is inserted here from script.js--></p>
+        <figcaption id="apod-caption"><!--Caption inserted here from script.js--> </figcaption>
+        <p id="copyright" style="text-align: center">Image Credit & Copyright: </p> 
+    <script src="../js/apod.js"></script>   
+</body>
+</html>
