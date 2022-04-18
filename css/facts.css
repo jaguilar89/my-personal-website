@@ -1,0 +1,25 @@
+body {
+    font-family: monospace;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    padding: 150px;
+    background: url("../images/globe.jpg");
+    background-size: 133em 122em;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#result {
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+}

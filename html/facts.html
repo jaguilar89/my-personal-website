@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>History Fact Generator</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;350&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../style.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-</head>
-<body>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random fact generator</title>
+    <link rel="stylesheet" href="../css/facts.css">
+  </head>
+  <body>
+      <section>
+        <h1>
+            Random history fact generator
+        </h1>
+        <p>
+            Select a month to read a random historical fact
+            from the beginning of that month
+        </p>
+  
+        <select id ='month-select'>
+            <option value =''>Select a month</option>
+            <option value ='january'>January</option>
+            <option value ='february'>February</option>
+            <option value ='march'>March</option>
+            <option value ='april'>April</option>
+            <option value ='may'>May</option>
+            <option value ='june'>June</option>
+            <option value ='july'>July</option>
+            <option value ='august'>August</option>
+            <option value ='september'>September</option>
+            <option value ='october'>October</option>
+            <option value ='november'>November</option>
+            <option value ='december'>December</option>
+        </select>
+  
+<p id ='result'></p>
+
+<button id='refresh-button'>Refresh</button>
+      </section>
+
+<script src="../js/facts.js"></script>
 </body>
 </html>
