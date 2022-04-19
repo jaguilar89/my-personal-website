@@ -97,6 +97,10 @@ ul {
     text-align: center;
     padding-left: 0;
 }
+
+#javascript a {
+    font-size: 24px;
+}
 /* apod.html*/
 #image-title {
     text-align: center;
@@ -105,3 +109,4 @@ ul {
 #month-select {
     text-align: center;
 }
+
