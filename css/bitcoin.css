@@ -1,0 +1,16 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    color: whitesmoke;
+    background: url('../images/crypto-wallpaper.jpg');
+
+}
+
+div {
+    text-align: center;
+}
+
+#bitcoin-price {
+    font-size: 35px;
+}
