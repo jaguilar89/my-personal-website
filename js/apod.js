@@ -8,7 +8,7 @@ const errorStatus = document.getElementById('error-status')
 
 
 //Fetch API data
-fetch('https://httpstat.us/503')
+fetch('https://api.nasa.gov/planetary/apod?api_key=9iFaJCujoyGFvvspz8rxFNjCWyw4HSxcVT5NuDcN')
     .then(handleError) //handleError function passed in, to handle any HTTPS request or network errors. See line 31.
     .then(response => response.json()) //Return fetch response in JSON format
     .then(data => {
@@ -22,7 +22,6 @@ fetch('https://httpstat.us/503')
     h1.textContent += `(${data.date})`
     img.src = `${data.url}`
     imgTitle.textContent = `${data.title}`
-    imgTitle.textContent += `${testFunc}`
     caption.textContent = `${data.explanation}`
 })
     .catch(displayError) //If an error is found, page is redirected to an error page.
@@ -41,5 +40,6 @@ function displayError(error) {
     if (window.location.pathname !== "/Users/jaguilar/Development/code/my-personal-website/html/error.html") { //Replaces original URL path with URL path for error page.
         window.location.href = "file:///Users/jaguilar/Development/code/my-personal-website/html/error.html" 
     }
-errorStatus.textContent = `${error}` //Displays error status (ie. 'Page not found')
+    console.log(errorStatus.textContent)
+    errorStatus.textContent = `${error}` //Displays error status (ie. 'Page not found')
 }

@@ -9,6 +9,7 @@ html, body {
 
 div {
     text-align: center;
+    padding-top: 75px;
 }
 
 #bitcoin-price {

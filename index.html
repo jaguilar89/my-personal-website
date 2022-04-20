@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Jose's Personal Website</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;350&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;350&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/footer.css" />
 </head>
 <body>
     <header>
     <nav>
         <ul>
             <a style="color: whitesmoke" href="#about"><li>About</li></a>
-            <a style="color: whitesmoke" href="#javascript"><li>JavaScript Stuff</li></a>
-            <a style="color: whitesmoke" href="#"><li>Contact</li></a>
+            <a style="color: whitesmoke" href="#projects"><li>Projects</li></a>
+            <a style="color: whitesmoke" href="#lab_social_icon_footer"><li>Contact</li></a>
         </ul>
      </nav>
     </header>
@@ -28,6 +29,7 @@
             </div>
             </div>
     </main>
+
     <section id="about">
         <h1>About</h1>
         <p>
@@ -48,17 +50,28 @@
             <figcaption>View of the skyline from Brooklyn</figcaption>
         </figure>
     </section>
-    <section id="javascript">
-        <h1>JavaScript Stuff</h1>
+
+    <section id="projects">
+        <h1>Projects</h1>
         <p>
             Here are some links to some mini JavaScript projects I have created using knowledge
             from the prework as well as my own studies.
         </p>
         <ul>
             <li><a id="astronomy" href="html/apod.html" target="_blank">Astronomy Picture of the Day</a></li>
+            <li><a id="bitcoin" href="html/bitcoin.html" target="_blank>">See current Bitcoin price</a></li>
             <li><a id="fact-generator" href="html/facts.html" target="_blank">History Fact Generator</a></li>
         </ul>
-        
     </section>
+
+    <section id="lab_social_icon_footer">
+        <div class="container">
+            <div class="text-center center-block">
+                <a href="https://github.com/jaguilar89/"><i id="social-gh" class="fa fa-github-square fa-3x social"></i></a>
+                <a href="https://www.linkedin.com/in/jaguilar89/"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a>
+                <a href="mailto:jaguilarny@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+            </div>
+        </div>
+        </section>
 </body>
 </html>
